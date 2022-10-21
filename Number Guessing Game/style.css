@@ -1,0 +1,26 @@
+div.form {
+     display: flex;
+     place-items: center;
+     margin: 0px auto;
+     flex-direction: column;
+     gap: 40px;
+}
+body {
+     background-color: #4caf50;
+}
+h3 {
+     font-weight: bold;
+     color: white;
+     font-family: "Helvetica";
+}
+input[type="submit"] {
+     padding: 15px;
+     width: 120px;
+     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+     color: white;
+     background-color: #7aeb8d;
+     border: none;
+     border-radius: 20px;
+     font-size: 18px;
+     font-weight: bold;
+}
