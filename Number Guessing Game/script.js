@@ -19,7 +19,7 @@ function NumberGuesserCheck() {
           );
      } else if (number !== Input) {
           userScore = 0;
-          alert(`your guess is incorrect. Game Over`);
+          alert(`your guess is incorrect. Game`);
      }
 
      if (userScore == 1) {
